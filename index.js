@@ -32,39 +32,6 @@ function confirmarHeroi() {
       } else {
           outMsg.innerHTML = "Experiência fora do intervalo esperado.";
       }
-  }
+  }   
 
-
-      
-
-      // Atualiza o texto do elemento "outMsg" com o nome do herói e a experiência adquirida
       outMsg.innerHTML = "Nome do herói: " + nomeHeroi + "<br>Experiência adquirida: " + expAdquirida;
-      // Ou faça o que precisar com os valores, como enviar para um servidor
-
-
-
-
-
-
-
-
-
-/*
-var inNomeHeroi = document.getElementById("inNomeHeroi")
-var inExp = document.getElementById("inExp")
-var outMsg = document.getElementById("outMsg")
-
-function updateRangeValue() {
-      var range = document.getElementById("inExp"); // Obtém o elemento range
-      
- 
-  }
-
-  function confirmarHeroi() {
-      var nomeHeroi = inNomeHeroi.value; // Obtém o valor do campo de entrada do nome do herói
-      var expAdquirida = inExp.value; // Obtém o valor do campo de entrada da experiência adquirida
-      outMsg.textContent = range.value;
-      outMsg.textContent = "Nome do herói: " + nomeHeroi + "\nExperiência adquirida: " + expAdquirida
-      // Ou enviar os valores para um servidor
-
-  }*/
